@@ -17,6 +17,8 @@
 		ACC771DD1CD83EC500909FC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC771DB1CD83EC500909FC4 /* Main.storyboard */; };
 		ACC771E21CD83EC500909FC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC771E01CD83EC500909FC4 /* LaunchScreen.storyboard */; };
 		ACDCAD6C1CD94426002412B3 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDCAD6B1CD94426002412B3 /* CalculatorBrain.swift */; };
+		ACEFD6D51E1D7E6B003C1F47 /* plus-simple-7.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEFD6D41E1D7E6B003C1F47 /* plus-simple-7.png */; };
+		ACEFD6DB1E1D8299003C1F47 /* text-align-justify-7.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEFD6DA1E1D8299003C1F47 /* text-align-justify-7.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,13 +27,15 @@
 		AC91CFE61D05055000B54565 /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplitViewController.swift; path = ../SplitViewController.swift; sourceTree = "<group>"; };
 		AC91CFE81D063E8500B54565 /* AxesDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxesDrawer.swift; sourceTree = "<group>"; };
 		AC91CFEA1D06423600B54565 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
-		ACC771D41CD83EC500909FC4 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC771D41CD83EC500909FC4 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Calculator.app; path = CalculatorPlusPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC771D71CD83EC500909FC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACC771D91CD83EC500909FC4 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		ACC771DC1CD83EC500909FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACC771E11CD83EC500909FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACC771E31CD83EC500909FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACDCAD6B1CD94426002412B3 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		ACEFD6D41E1D7E6B003C1F47 /* plus-simple-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-simple-7.png"; sourceTree = "<group>"; };
+		ACEFD6DA1E1D8299003C1F47 /* text-align-justify-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-align-justify-7.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				ACC771DB1CD83EC500909FC4 /* Main.storyboard */,
 				AC91CFE81D063E8500B54565 /* AxesDrawer.swift */,
 				AC74D6F41CEC009100422AC4 /* Images-3.xcassets */,
+				ACEFD6D41E1D7E6B003C1F47 /* plus-simple-7.png */,
+				ACEFD6DA1E1D8299003C1F47 /* text-align-justify-7.png */,
 				ACC771E91CD8404B00909FC4 /* Supporting Files */,
 			);
 			path = Calculator;
@@ -147,9 +153,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEFD6DB1E1D8299003C1F47 /* text-align-justify-7.png in Resources */,
 				ACC771E21CD83EC500909FC4 /* LaunchScreen.storyboard in Resources */,
 				AC74D6F51CEC009100422AC4 /* Images-3.xcassets in Resources */,
 				ACC771DD1CD83EC500909FC4 /* Main.storyboard in Resources */,
+				ACEFD6D51E1D7E6B003C1F47 /* plus-simple-7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

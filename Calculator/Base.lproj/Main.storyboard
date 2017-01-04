@@ -12,7 +12,7 @@
         <!--Split View Controller-->
         <scene sceneID="mC9-EH-0ur">
             <objects>
-                <splitViewController id="bcM-7l-7yp" customClass="SplitViewController" customModule="Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                <splitViewController id="bcM-7l-7yp" customClass="SplitViewController" customModule="CalculatorPlusPlus" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
                         <segue destination="ov2-57-F8M" kind="relationship" relationship="masterViewController" id="OcG-TO-OKI"/>
                         <segue destination="0vS-Lp-74x" kind="relationship" relationship="detailViewController" id="Q30-4f-mwQ"/>
@@ -25,7 +25,7 @@
         <!--Calculator View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="CalculatorViewController" customModule="Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CalculatorViewController" customModule="CalculatorPlusPlus" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -408,7 +408,7 @@
         <!--Graphing Interface-->
         <scene sceneID="wVd-Ov-sZh">
             <objects>
-                <viewController id="QC8-W4-Sbe" customClass="GraphViewController" customModule="Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QC8-W4-Sbe" customClass="GraphViewController" customModule="CalculatorPlusPlus" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TG4-Vk-bCq"/>
                         <viewControllerLayoutGuide type="bottom" id="bYR-O5-Q8N"/>
@@ -429,7 +429,7 @@
                             <constraint firstItem="FX4-Jc-sIm" firstAttribute="bottom" secondItem="bYR-O5-Q8N" secondAttribute="top" constant="8" symbolic="YES" id="hTk-17-cA9"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Graph" id="dVe-Rh-RvO"/>
+                    <tabBarItem key="tabBarItem" title="Graph" image="plus-simple-7.png" id="dVe-Rh-RvO"/>
                     <navigationItem key="navigationItem" title="Graphing Interface" id="Ond-BY-4Ti"/>
                     <connections>
                         <outlet property="scrollView" destination="FX4-Jc-sIm" id="XCa-cx-seg"/>
@@ -461,10 +461,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="rehmah3@mcmaster.ca"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idZ-FP-6Sa">
+                                <rect key="frame" x="81" y="336" width="192" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="rehmah3@mcmaster.ca"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.14000000059604645" green="0.14000000059604645" blue="0.14000000059604645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About" id="ddX-Hd-qOH"/>
+                    <tabBarItem key="tabBarItem" title="About" image="text-align-justify-7.png" id="ddX-Hd-qOH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZeA-Ub-g4T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -508,6 +513,10 @@
             <point key="canvasLocation" x="1052" y="-302"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="plus-simple-7.png" width="30" height="30"/>
+        <image name="text-align-justify-7.png" width="30" height="30"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Nb7-eS-e24"/>
     </inferredMetricsTieBreakers>
